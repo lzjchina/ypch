@@ -1,0 +1,31 @@
+#main{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 72px;
+}
+
+.main-cont{
+	width: 740px;
+}
+.main-cont h3{
+	height: 34px;
+	padding-left: 44px;
+	line-height: 34px;
+	background: #cccccc;
+}
+.main-cont li{
+	height: 29px;
+	line-height: 29px;
+	border-bottom: 1px dashed #CCCCCC;
+	background: url(../img/main.png) no-repeat 6px center;
+	padding-left: 22px;
+}
+.main-cont li a{
+	float: left;
+	color: #666666;
+}
+.main-cont li span{
+	float: right;
+	color: #666666;
+}
+

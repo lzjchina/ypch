@@ -1,0 +1,154 @@
+body,html,p,ul,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,fieldset,legend,form,input{
+	padding: 0;
+	margin: 0;
+}
+img{
+	border: 0;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+em,i{
+	font-style: normal;
+}
+b,strong{
+	font-weight: normal;
+}
+body{
+	font-size: 14px;
+	font-family: "微软雅黑","宋体";
+}
+ul{
+	list-style: none;
+}
+
+.clearfix:after{
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+
+
+/* 1、头部*/
+#header{
+	width: 100%;
+}
+.header-nav{
+	width: 960px;
+	height: 143px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.header-logo{
+	height: 75px;
+	margin-bottom: 30px;
+}
+.header-logo h3{
+	float: left;
+	margin-top: 22px;
+}
+.header-logo .tel{
+	float: right;
+	margin-top: 34px;
+	padding-right: 40px;
+	background: url(../img/tel.png) no-repeat right center;
+	text-align: right;
+}
+.header-logo .tel p{
+	font-size: 14px;
+	color: black;
+	height: 18px;
+}
+.header-logo .tel span{
+	font-size: 16px;
+	color: #88bf25;
+	font-weight: bold;
+}
+
+.header-nav .nav-cont a{
+	margin: 0 15px 0;
+	color: black;
+}
+.header-nav .nav-cont .active{
+	color: gray;
+}
+
+.header-banner{
+	width: 100%;
+	height: 310px;
+	background: url(../img/banner.png);
+	background-size: 100% 100%;
+}
+
+.float-l{
+	float: left;
+}
+.float-r{
+	float: right;
+}
+
+/* 2、主体 -- 侧边栏*/
+.main-side{
+	width:220px;
+}
+.main-side h4{
+	font-size:20px;
+	line-height: 32px;
+	color: #88BF25;
+}
+.main-side h3{
+	font-size: 26px;
+	color: #88BF25;
+}
+.main-side ul{
+	width: 175px;
+	padding-left: 5px;
+	margin: 35px 0;
+}
+.main-side li{
+	border-bottom: 1px solid #d3dce5;
+}
+.main-side li a{
+	color:#808080;
+	line-height: 28px;
+	margin-left: 15px;
+}
+.main-side h5{
+	width: 192px;
+	font-size: 18px;
+	height: 47px;
+	line-height: 22px;
+	border-bottom: 1px dashed #e8e8e8;
+	color: #88BF25;
+	margin-top: 6px;
+}
+
+
+/* 3、尾部*/
+#footer{
+	height: 120px;
+	background: url(../img/footer.png);
+	padding-top: 15px;
+}
+#footer p{
+	text-align: center;
+	line-height: 25px;
+	height: 25px;
+}
+#footer a{
+	color: black;
+}
+#footer .nav{
+	color: #666666;
+	margin-bottom: 20px;
+}
+#footer .nav a{
+	color: #666666;
+	text-decoration: underline;
+	margin: 0 3px 0;
+}
